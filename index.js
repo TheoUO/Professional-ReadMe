@@ -1,5 +1,8 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer')
+const inquirer = require('inquirer');
+const fs = require('fs');
+const path = require('path');
+const generateMarkDown = require('.utils/generateMarkDown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -32,7 +35,7 @@ const questions = [
         name: 'license',
         type: 'input',
         message: 'What license did you use?',
-        choices: ['MIT']
+        choices: ['MIT', 'APACHE2.0', 'Boost1.0', 'none'],
     },
     {
         name: 'Test',
@@ -47,10 +50,15 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fswriteFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    console.log("Creating Professional README.md File...");
+    writeToFile("./dist/README.md", generateMarkDown({...responses}));
+}
 
 // Function call to initialize app
 init();
