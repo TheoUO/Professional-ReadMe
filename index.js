@@ -22,12 +22,12 @@ const questions = [
         message: 'What is your table of contents?',
     },
     {
-        name: 'Installation',
+        name: 'installation',
         type: 'input',
         message: 'How do you install this?',
     },
     {
-        name: 'Usage',
+        name: 'usage',
         type: 'input',
         message: 'How do you use this?',
     },
@@ -38,14 +38,29 @@ const questions = [
         choices: ['MIT', 'APACHE2.0', 'Boost1.0', 'none'],
     },
     {
-        name: 'Test',
-        type: 'input',
-        message: 'What are the contributing tests?',
-    },
-    {
         name: 'questions',
         type: 'input',
         message: 'What questions did you have?',
+    },
+    {
+        name: 'github',
+        type: 'input',
+        message: 'What is your Github username?',
+    },
+    {
+        name: 'email',
+        type: 'input',
+        message: 'What is your email address?',
+    },
+    {
+        name: 'contributor',
+        type: 'input',
+        message: 'Please list any contributors',
+    },
+    {
+        name: 'tests',
+        type: 'input',
+        message: 'Are there any tests?',
     },
 ];
 
