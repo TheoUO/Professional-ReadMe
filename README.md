@@ -1,31 +1,30 @@
-# ff
+# README Generator
   by undefined
-  [Github license](https://img.shields.io/badge/license-ff-yellowgreen.svg)
+  [Github license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
   ## Table of Contents
   * [Description](#description)
-  * [Requirement](#requirement)
   * [Usage](#usage)
-  * [Contact-Me](#contact-me)
+  * [Questions](#questions)
   * [Contributors](#contributors)
   * [Testing](#testing)
   
 * [License](#license)
 
   ## Description
-  ff
-  ## Requirements
-  undefined
+  Simple application to generate a usable README
+  ## Installation
+  $By clciking on this link here:
   ## Usage
-  undefined
-  ## Contact-Me
+  Simply answer the prompts that the application provides to generate your README
+  ## Questions
   * Name - undefined
-  * Email - undefined
-  * Github - [undefined](https://github.com/undefined/)
+  * Email - theodoreuokeke@gmail.com
+  * Github - [TheoUO](https://github.com/TheoUO/)
   ## Contributors
-  undefined
+  MikeP
   ## Testing
   ```
   undefined
   ```
   ## License
-      Licensed under the ff license
+      Licensed under the MIT license

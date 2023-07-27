@@ -31,9 +31,10 @@ function generateMarkdown(data) {
   by ${data.name}
   ${renderLicenseBadge(data.license)}
   ## Table of Contents
+  $${data.contents}
   * [Description](#description)
   * [Usage](#usage)
-  * [Questions(#questions)
+  * [Questions](#questions)
   * [Contributors](#contributors)
   * [Testing](#testing)
   ${renderLicenseLink(data.license)}
@@ -44,6 +45,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   ## Questions
+  $${data.questions}
   * Name - ${data.name}
   * Email - ${data.email}
   * Github - [${data.github}](https://github.com/${data.github}/)
