@@ -33,11 +33,6 @@ const questions = [
         choices: ["MIT", "APACHE2.0", "Boost1.0", "none"],
     },
     {
-        name: 'questions',
-        type: 'input',
-        message: 'What questions did you have?',
-    },
-    {
         name: 'github',
         type: 'input',
         message: 'What is your Github username?',
