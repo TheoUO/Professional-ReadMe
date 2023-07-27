@@ -1,5 +1,4 @@
 # README Generator
-  by undefined
   [Github license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
   ## Table of Contents
   * [Description](#description)
@@ -11,12 +10,13 @@
 * [License](#license)
 
   ## Description
-  Simple application to generate a usable README
+  A simple application to create a README
   ## Installation
-  $By clciking on this link here:
+  At the moment, it cannot be installed
   ## Usage
-  Simply answer the prompts that the application provides to generate your README
+  By simple answering the prompts provided
   ## Questions
+  I wonder what more I can build with this
   * Name - undefined
   * Email - theodoreuokeke@gmail.com
   * Github - [TheoUO](https://github.com/TheoUO/)
@@ -24,7 +24,7 @@
   MikeP
   ## Testing
   ```
-  undefined
+  No significant tests
   ```
   ## License
       Licensed under the MIT license
